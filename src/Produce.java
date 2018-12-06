@@ -12,7 +12,12 @@ public class Produce extends Item {
 		//do all the things this constructor needs to
 		setExpiration(exp);
 		setWeight(w);
+		setUnitPrice();
 		
+	}
+	
+	public void setUnitPrice() {
+		setUnitPrice(weight * getUnitPrice());
 	}
 	
 	public void setExpiration(String exp) {

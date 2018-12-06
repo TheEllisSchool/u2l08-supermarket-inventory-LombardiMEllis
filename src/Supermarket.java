@@ -34,7 +34,7 @@ public class Supermarket {
 			totalCost = totalCost + amount * paperPlates.getUnitPrice();
 		}
 		
-		System.out.println("You purchased " + totalCost);
+		System.out.println("Total purchase: $" + totalCost);
 		System.out.println("new paper plate values: " + paperPlates);
 
 	}

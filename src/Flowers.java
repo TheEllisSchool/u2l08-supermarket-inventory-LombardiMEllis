@@ -23,5 +23,6 @@ public class Flowers extends Item {
 	public String getColor() {
 		return color;
 	}
+	
 
 }
