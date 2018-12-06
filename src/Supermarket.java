@@ -37,6 +37,7 @@ public class Supermarket {
 		System.out.println("Total purchase: $" + totalCost);
 		System.out.println("new paper plate values: " + paperPlates);
 
+
 	}
 
 }
